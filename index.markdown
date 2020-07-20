@@ -6,8 +6,6 @@ layout: home
 ---
 
 
-##Context
-
 Copy-Move forgery has been widely studied as it is a really common forgery. 
 Furthermore, it is the easiest forgery to create with serious security-related threats in particular for distant remote id 
 onboarding where company ask their customer to send a photo of their ID document. 
