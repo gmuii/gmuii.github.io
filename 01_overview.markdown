@@ -27,7 +27,7 @@ Inside the ***ref*** folder, images will be named following this convention  :
 With ***NAME*** being an ID document identifier such as ***BEL_P_N*** for the national belgium passport. 
 And  ***X*** a numerical index (starting from 0) representing a unique photo of one ID document.
 One ID document can be present multiple times in the dataset. For example, if there were 18 pictures of 
-the national belgium passport. Then the 5<sup>th</sup> image of this document will be named :
+the national belgium passport. Then, the 5<sup>th</sup> image of this document will be named :
 
 ***BEL_P_N_4***
 
@@ -38,6 +38,24 @@ Inside the ***tampered*** folder, images will be named following this convention
 ***NAME_X_Y***
 
 With ***NAME_X*** the name of the reference image used. And  ***Y*** a numerical index (starting from 0)
-representing a unique tampering of image ***NAME_X***
+representing a unique tampering of image ***NAME_X***.
+
+Inside the ***gt*** folder, the binary mask will have the same name as the tamperd images. 
+So for the tampered image ***tampered/BEL_P_N_2_1.png***, the corresponding binary mask
+will be find at ***gt/BEL_P_N_2_1.png***.
+
+
+<h1>Ground truth format</h1>
+
+The ground truth masks will be provided as **RGB** images to allow source/target identification.
+
+The localisation of the source element will be in the green channel and the localisation of the target 
+will be in the red channel. The blue channel will always be empty (i.e. filled with zeros).
+
+![Example of tampering](/img/example.jpg)
+
+On the above example, we can see the tampered image on the left and the ground truth mask on the right. 
+The mask indicates that the caracter at the location of the green patch has been copy and move at the red
+patch location.
 
 
