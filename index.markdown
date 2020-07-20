@@ -3,17 +3,40 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
----
+--- 
+
+<h1>Welcome to the NAME page</h1>
+The NAME is a Copy-Move forgery on ID documents dataset.
+
+![Example of tampering](/img/example.jpg)
+
+Here you will find all the information regarding the dataset.
+To download the dataset please follow the instruction [here](/download/). 
+For more information about the dataset follow this  [link](/overview/).
 
 
-Copy-Move forgery has been widely studied as it is a really common forgery. 
-Furthermore, it is the easiest forgery to create with serious security-related threats in particular for distant remote id 
-onboarding where company ask their customer to send a photo of their ID document. 
-It is then easy for a counterfeit to alter the information on the document by copying and pasting letters within the 
-photo. 
+If you use the NAME please cite :
 
-On the other hand, copy-move detection algorithms are known to perform worse in presence of 
-similar but genuine objects preventing from using them in practical situations like remote ID onboarding.
-In this article we propose a novel copy-move public dataset containing forged ID documents and study 
-current state-of-the-art performances on this dataset to evaluate their potential use in practical 
-situations.
+```
+@inproceedings{sift-ldm,
+  title={Copy and Move Forgery Detection Using SIFT and Local Color Dissimilarity Maps},
+  author={Mahfoudi, Ga{\"e}l and Morain-Nicollier, Fr{\'e}d{\'e}ric and Retraint, Florent and Pic, Marc},
+  booktitle={2019 IEEE Global Conference on Signal and Information Processing (GlobalSIP)},
+  year={2019}
+}
+```
+
+and : 
+
+```
+@inproceedings{sift-ldm,
+  title={Copy and Move Forgery Detection Using SIFT and Local Color Dissimilarity Maps},
+  author={Mahfoudi, Ga{\"e}l and Morain-Nicollier, Fr{\'e}d{\'e}ric and Retraint, Florent and Pic, Marc},
+  booktitle={2019 IEEE Global Conference on Signal and Information Processing (GlobalSIP)},
+  year={2019}
+}
+```
+
+
+
+
