@@ -4,7 +4,7 @@ title : Overview
 permalink : /overview/
 ---
 
-The NAME is a dataset specialized for Copy-Move forgeries. It contains 
+CMID is a dataset specialized for Copy-Move forgeries. It contains 
 automatically generated tampered ID documents. 
 At the time of writing, a base of 304 documents were used to produce 893 tampered images.
 Those number might evolve over time but the structure will stay the same.
@@ -35,7 +35,7 @@ the national belgium passport. Then, the 5<sup>th</sup> image of this document w
 
 Inside the ***tampered*** folder, images will be named following this convention : 
 
-***NAME_X_Y***
+***Y_NAME_X***
 
 With ***NAME_X*** the name of the reference image used. And  ***Y*** a numerical index (starting from 0)
 representing a unique tampering of image ***NAME_X***.

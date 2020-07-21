@@ -5,7 +5,7 @@ permalink: /download/
 ---
 
 
-To get access the NAME dataset, please this form.
+To get access the CMID dataset, please this form.
 
 Once completed, you will shortly receive a confirmation mail and we will 
 process your request in the shortest times.

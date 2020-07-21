@@ -5,7 +5,7 @@
 layout: home
 --- 
 
-<h1>Welcome to the NAME page</h1>
+<h1>Welcome to the CMID dataset page</h1>
 The NAME is a Copy-Move forgery on ID documents dataset.
 
 ![Example of tampering](/img/example.jpg)
@@ -15,7 +15,7 @@ To download the dataset please follow the instruction [here](/download/).
 For more information about the dataset follow this  [link](/overview/).
 
 
-If you use the NAME please cite :
+If you use the CMID dataset please cite :
 
 ```
 @inproceedings{sift-ldm,
