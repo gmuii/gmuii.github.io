@@ -5,12 +5,14 @@ permalink: /about/
 ---
 
 
-{:refdef: style="text-align: center;"}
-![logo](/img/grouped_logo.png)
-{: refdef}
-&nbsp;
-&nbsp;
+<span style="display:inline-block; width:10%;"></span>
+<img src="/img/grouped_logo.png" style="width:80%">
 
-{:refdef: style="text-align: center;"}
-This work is a partnership between [SURYS](https://surys.com/) and the University of Technology of Troyes ([UTT](https://www.utt.fr/))
-{: refdef}
+
+<span style="display:inline-block; height:10%;"></span>
+
+
+<center>
+This work is a partnership between <a href="https://surys.com/">SURYS</a> and the University of Technology of Troyes 
+(<a href="https://www.utt.fr/">UTT</a>)
+</center>
