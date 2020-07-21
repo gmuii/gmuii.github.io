@@ -6,7 +6,7 @@ layout: home
 --- 
 
 <h1>Welcome to the CMID dataset page</h1>
-The CMID dataset is a Copy-Move forgery on ID documents dataset.
+The CMID dataset is a Copy-Move forgery on ID documents.
 
 ![Example of tampering](/img/example.jpg)
 
